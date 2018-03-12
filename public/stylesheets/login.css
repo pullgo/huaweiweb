@@ -1,0 +1,241 @@
+input{
+	outline: none;
+	font-family: inherit;
+    font-size: inherit;
+}
+label{
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	color: red;
+	font-size: 14px;
+}
+#container{
+	position: static;
+}
+button,input{
+	font-size: inherit;
+}
+.container{
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*字体 登录*/
+.red_title{
+	font-size: 24px;
+	color: #ca0b03;
+	margin: 30px 0 25px;
+}
+/*红色分割线*/
+.red_line{
+	background-color: #ca0b03;
+	height: 10px;
+	width: 100%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.sign-contact{
+	width: 100%;
+}
+/*登录框 密码框*/
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.login-input{
+	background-color: #F8F9FB;
+	margin:0 auto;
+	margin-right: 20px;
+}
+.center-block{
+	margin:0 auto;
+}
+.float-none{
+	float: none !important;
+}
+.user{
+	margin-top: 40px;
+	height: 54px;
+	width: 100%;
+	position: relative;
+	border:1px solid #b9babe;
+}
+.user-active{
+	margin-top: 40px;
+	height: 54px;
+	width: 100%;
+	position: relative;
+	border:1px solid red;
+}
+
+.user input{
+	width: 100%;
+	height: 52px;
+	padding-left: 50px;
+}
+.user-active input{
+	width: 100%;
+	height: 52px;
+	padding-left: 50px;
+}
+
+.user span{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+	width: 48px;
+	height: 48px;
+	border-right: none;
+	border-left: none;
+	background: url(../images/hw-login-sprite.png) no-repeat 0 0;
+
+}
+.password1 span{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+	width: 48px;
+	height: 48px;
+	border-right: none;
+	border-left: none;
+	background: url(../images/hw-login-sprite.png) no-repeat -48px 0;
+}
+.user-active span{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+	width: 48px;
+	height: 48px;
+	border-right: none;
+	border-left: none;
+	background: url(../images/hw-login-sprite.png) no-repeat -210px 0;
+}
+.password1-active span{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+	width: 48px;
+	height: 48px;
+	border-right: none;
+	border-left: none;
+	background: url(../images/hw-login-sprite.png) no-repeat -100px 0;
+}
+
+/*登录按钮*/
+.sign-btn{
+	margin-top: 40px;
+	
+}
+.sign-btn input{
+	width: 100%;
+	height: 47px;
+	background:#dd3435;
+    border-radius: 4px;
+}
+/*帮助*/
+.logon{
+	margin-top: 20px;	
+	margin-bottom: 20px;	
+}
+.logon a{
+	color: #337ab7;
+	padding-right: 10px;
+}
+.other-way{
+	border-top:1px solid #b9babe;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.other-way P{
+	margin-bottom:10px;/*这句效果是描边可以很完整*/
+}
+.logon-left{
+	float: left;
+}
+.logon-right{
+	float: right;
+}
+.other-way span{
+	display: inline-block;
+	width: 38px;
+	height: 35px;
+	background: url(../images/hw-login-sprite.png) no-repeat -160px 0;
+}
+/*footer*/
+#sign-footer{
+	width: 100%;
+	background: #e1e1e1;
+	z-index: 500;
+}
+.sign-footer {
+    color: #626262 !important;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+}
+.sign-footer p{
+    line-height: 60px;
+
+}
+
+/*表单验证
+.valid{
+    background: url(../images/succ1.png) no-repeat right;
+    background-size: auto 100%;
+    border: 2px solid green;
+}*/
+
+/*自动补全邮箱定位*/
+#ui-id-1{
+	display:block;
+	width: 350px !important;
+	position: absolute;
+	left: 37% !important;
+	top: 253px !important;
+}
+.ui-menu-item{
+	list-style-image：none;
+}
+
+
+
+@media(min-width:768px){
+.container{
+    width: 750px;
+}
+.col-sm-8{
+	width: 65%;
+}
+.col-sm-7{
+	width: 58%;
+}
+.content_last_inner{
+    width: 750px;
+}
+.#ui-id-1{
+	width: 60% !important;
+}	
+}
+@media(min-width:992px){
+.container{
+    width: 970px;
+}
+.content_last_inner{
+    width: 970px;
+}	
+
+}
+@media(min-width:1200px){
+.container{
+    width: 1170px;
+}
+.content_last_inner{
+    width: 1170px;
+}
+
+
+}
+
+
